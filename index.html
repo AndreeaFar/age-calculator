@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" defer></script>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="container">
+        <form>
+          <div class="form-control">
+            <label for="day">DAY</label>
+            <input type="text" id="day" placeholder="DD" />
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <label for="month">MONTH</label>
+            <input type="text" id="month" placeholder="MM" />
+            <small>Error message</small>
+          </div>
+
+          <div class="form-control">
+            <label for="year">YEAR</label>
+            <input type="text" id="year" placeholder="YYYY" />
+            <small>Error message</small>
+          </div>
+        </form>
+      </div>
+
+      <div class="hr">
+        <hr />
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="46"
+            height="44"
+            viewBox="0 0 46 44">
+            <g fill="none" stroke="#FFF" stroke-width="2">
+              <path
+                d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+            </g>
+          </svg>
+        </button>
+      </div>
+
+      <div class="container2">
+        <h2><span id="years">- - </span>years</h2>
+        <h2><span id="months">- - </span>months</h2>
+        <h2><span id="days">- - </span>days</h2>
+      </div>
+    </div>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Andreea</a>.
+    </footer>
+  </body>
+</html>
