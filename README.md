@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: nu uita sa pui aici site
+- Live Site URL: https://agecalculator-application.netlify.app/
 
 ### Built with
 
